@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         self.setWindowTitle("My App")
-        button = QPushButton("Press Me pls")
+        button = QPushButton("Press Me")
 
         # Set the central widget of the Window.
         self.setCentralWidget(button)
